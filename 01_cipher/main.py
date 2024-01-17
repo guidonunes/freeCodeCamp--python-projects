@@ -15,4 +15,3 @@ def vigenere(message, key):
     print('plain text:', message)
     print('encrypted text:', encrypted_text)
 
-caesar(text, shift)
