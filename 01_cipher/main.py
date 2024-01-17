@@ -1,5 +1,5 @@
 text = 'Hello Zaira'
-shift = 3
+custom_key = 'python'
 
 def vigenere(message, key):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
