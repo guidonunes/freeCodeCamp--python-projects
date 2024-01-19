@@ -19,6 +19,5 @@ def vigenere(message, key):
             index = alphabet.find(char)
             new_index = (index + key) % len(alphabet)
             encrypted_text += alphabet[new_index]
-    print('plain text:', message)
-    print('encrypted text:', encrypted_text)
+    return encrypted_text
 
