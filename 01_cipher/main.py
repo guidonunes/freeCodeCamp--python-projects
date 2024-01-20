@@ -29,6 +29,7 @@ def decrypt(message, key):
 
 encryption = encrypt(text, custom_key)
 print('Encrypted text: ' + text)
+print('Key: ' + custom_key)
 
 decryption = decrypt(encryption, custom_key)
 print(decryption)
