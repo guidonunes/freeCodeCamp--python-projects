@@ -28,10 +28,10 @@ def decrypt(message, key):
     return vigenere(message, key, -1)
 
 print(f'Encrypted text: {text}')
-print('Key: ' + custom_key)
+print(f'Key: {custom_key}')
 
 decryption = decrypt(text, custom_key)
-print('Decrypted text: ' + decryption)
+print(f'Decrypted text: {decryption}')
 
 encryption = vigenere(text, custom_key)
 print(encryption)
