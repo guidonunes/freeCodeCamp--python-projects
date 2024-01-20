@@ -30,7 +30,7 @@ def decrypt(message, key):
 print('Encrypted text: ' + text)
 print('Key: ' + custom_key)
 
-decryption = decrypt(encryption, custom_key)
+decryption = decrypt(text, custom_key)
 print('Decrypted text: ' + decryption)
 
 encryption = vigenere(text, custom_key)
