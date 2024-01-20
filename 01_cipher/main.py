@@ -32,7 +32,7 @@ print('Encrypted text: ' + text)
 print('Key: ' + custom_key)
 
 decryption = decrypt(encryption, custom_key)
-print(decryption)
+print('Decrypted text: ' + decryption)
 
 encryption = vigenere(text, custom_key)
 print(encryption)
