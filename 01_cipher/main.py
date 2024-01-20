@@ -27,7 +27,6 @@ def encrypt(message, key):
 def decrypt(message, key):
     return vigenere(message, key, -1)
 
-encryption = encrypt(text, custom_key)
 print('Encrypted text: ' + text)
 print('Key: ' + custom_key)
 
