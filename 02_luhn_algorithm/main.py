@@ -4,6 +4,7 @@ def verify_card_number(card_number):
     odd_digits = card_number_reversed[::2]
     for digit in odd_digits:
         print(digit)
+        sum_of_odd_digits += digit
   
    
 
