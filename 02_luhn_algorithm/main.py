@@ -6,9 +6,7 @@ def verify_card_number(card_number):
         sum_of_odd_digits += int(digit);
     print(sum_of_odd_digits)
     sum_of_even_digits = 0
-    
-  
-   
+    even_digits = card_number_reversed[1::2]
 
 def main():
     card_number='4111-1111-4555-1142'
