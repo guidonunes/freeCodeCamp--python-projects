@@ -9,5 +9,7 @@ def total_expenses(expenses):
     pass
 
 test = lambda x : x * 2
+test(3)
+print(test(3))
 
 expenses = []
