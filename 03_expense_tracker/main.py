@@ -15,3 +15,4 @@ def main():
     expenses = []
     while True:
         print('\nExpense Tracker')
+        print('1. Add an expense')
