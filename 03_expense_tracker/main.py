@@ -25,3 +25,4 @@ def main():
         if choice == '1':
             amount = float(input("Enter amount: "))
             category = input('Enter category: ')
+            add_expense(expenses, amount, category)
