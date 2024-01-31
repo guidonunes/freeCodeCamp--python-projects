@@ -14,4 +14,4 @@ def main():
     print(convert_to_snake_case('aLongAndComplexString'))
 
 if __name__=='__main__':
-    pass
+    main()
