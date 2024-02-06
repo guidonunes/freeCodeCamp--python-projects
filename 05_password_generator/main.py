@@ -15,3 +15,5 @@ def generate_password(length):
         password += secrets.choice(all_characters)
     return password
 
+new_password = generate_password(8)
+
