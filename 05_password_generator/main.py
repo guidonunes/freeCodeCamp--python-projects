@@ -9,4 +9,5 @@ def generate_password(length):
 
 #Combine all characters
     all_characters = letters + digits + symbols
+    password= ""
 
