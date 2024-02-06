@@ -16,6 +16,7 @@ def generate_password(length, nums, special_chars, uppercase, lowercase):
         for _ in range(length):
             password += secrets.choice(all_characters)
             return password
+        constraints =[]
 
 #new_password = generate_password(8)
 #print(new_password)
