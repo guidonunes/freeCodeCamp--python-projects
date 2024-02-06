@@ -1,4 +1,4 @@
-import random
+import secrets
 import string
 
 #Define the possible characters for the password
