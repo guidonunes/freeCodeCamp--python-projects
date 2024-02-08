@@ -20,7 +20,8 @@ def generate_password(length, nums, special_chars, uppercase, lowercase):
         constraints =[
             (nums, '[0-9]'),
             (lowercase, '[a-z]'),
-             (uppercase, '[A-Z]')
+            (uppercase, '[A-Z]'),
+            (special_chars, '') 
             ]
 
 #new_password = generate_password(8)
