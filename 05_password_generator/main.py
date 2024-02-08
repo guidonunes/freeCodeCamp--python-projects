@@ -21,7 +21,7 @@ def generate_password(length, nums, special_chars, uppercase, lowercase):
             (nums, r'\d'),
             (lowercase, r'[a-z]'),
             (uppercase, r'[A-Z]'),
-            (special_chars, r'[^a-zA-Z0-9]') 
+            (special_chars, r'\W') 
             ]
 
 #new_password = generate_password(8)
