@@ -31,7 +31,8 @@ def generate_password(length, nums, special_chars, uppercase, lowercase):
             break
         
     return password             
-#new_password = generate_password(8)
-#print(new_password)
+
+new_password = generate_password(8,1,1,1,1)
+print(new_password)
 
 
