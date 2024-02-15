@@ -4,3 +4,4 @@ copper = {
 }
 
 copper['food'] = 'hay'
+print(copper)
