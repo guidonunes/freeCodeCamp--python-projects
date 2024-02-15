@@ -3,4 +3,3 @@ copper = {
     'age' : 2,
 }
 
-print(copper['species'])
