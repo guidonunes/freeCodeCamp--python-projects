@@ -9,3 +9,5 @@ rods = {
 
 def move():
     print(rods)
+
+move()
