@@ -4,4 +4,4 @@ rods = {
     'C': []
 }
 
-
+print(type(rods['A']))
