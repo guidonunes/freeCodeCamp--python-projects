@@ -4,4 +4,5 @@ rods = {
     'C': []
 }
 
-
+def move():
+    pass
