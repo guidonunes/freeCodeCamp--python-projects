@@ -37,7 +37,10 @@ def move(n, source, auxiliary, target):
        elif remainder == 2:
            if n % 2 != 0:
                 print(f'Move {i + 1} allowed between {source} and {auxiliary}')
-                make_allowed_move(source, auxiliary)   
+                make_allowed_move(source, auxiliary)
+           else:
+                print(f'Move {i + 1} allowed between {source} and {target}')
+                make_allowed_move(source, target)   
        elif remainder == 0:
             print(f'Move {i + 1} allowed between {auxiliary} and {target}')
             make_allowed_move(auxiliary, target)   
