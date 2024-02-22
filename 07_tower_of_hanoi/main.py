@@ -14,7 +14,7 @@ def move(n, source, auxiliary, target):
         move(n - 1, source, auxiliary, target)
     #move the nth disk from source to target
         rods[target].append(rods[source].pop())
-    #display starting configuration
+    #display our progress
         print(rods,'\n')
     
 
