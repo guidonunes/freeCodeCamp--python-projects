@@ -19,8 +19,9 @@ def move(n, source, auxiliary, target):
                 forward = True
             elif rods[source] and rods[source][-1] < rods[target][-1]:
                 forward = True
-            if forward == True:
+            if forward:
                 print(f'Moving disk {rods[source][-1]} from {source} to {target}')
+                
        elif remainder == 2:
             print(f'Move {i + 1} allowed between {source} and {auxiliary}')
        elif remainder == 0:
