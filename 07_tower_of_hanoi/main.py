@@ -9,8 +9,10 @@ rods = {
 
 
 def move(n, source, auxiliary, target):
+    if n > 0:
+        move(n - 1, source, auxiliary, target)
     #display starting configuration
-    print(rods,'\n')
+        print(rods,'\n')
     
 
 #initiate call from source A to target C with auxiliary B
