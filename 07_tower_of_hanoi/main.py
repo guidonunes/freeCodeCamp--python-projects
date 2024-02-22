@@ -13,7 +13,11 @@ def move(n, source, auxiliary, target):
     for i in range(number_of_moves):
        remainder = (i + 1) % 3
        if remainder == 1:
-           print(f'Move {i + 1} allowed between {source} and {target}')
+            print(f'Move {i + 1} allowed between {source} and {target}')
+       elif remainder == 2:
+            print(f'Move {i + 1} allowed between {source} and {auxiliary}')
+       else:
+            print(f'Move {i + 1} allowed between {auxiliary} and {target}')
 
 #initiate call from source A to target C with auxiliary B
 move(NUMBER_OF_DISKS, 'A', 'B', 'C')
