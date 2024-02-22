@@ -7,6 +7,9 @@ rods = {
     'C': []
 }
 
+def make_allowed_move():
+    pass
+
 def move(n, source, auxiliary, target):
     #display starting configuration
     print(rods)
