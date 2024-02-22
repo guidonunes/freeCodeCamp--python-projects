@@ -7,7 +7,7 @@ rods = {
     'C': []
 }
 
-def make_allowed_move():
+def make_allowed_move(rod1, rod2):
     pass
 
 def move(n, source, auxiliary, target):
