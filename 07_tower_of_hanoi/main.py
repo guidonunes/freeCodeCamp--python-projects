@@ -10,6 +10,7 @@ rods = {
 
 def move(n, source, auxiliary, target):
     if n > 0:
+    #move n - 1 disks from source to auxiliary, so they are out of the way
         move(n - 1, source, auxiliary, target)
     #display starting configuration
         print(rods,'\n')
