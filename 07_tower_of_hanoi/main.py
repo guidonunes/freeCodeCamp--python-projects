@@ -16,7 +16,7 @@ def move(n, source, auxiliary, target):
             print(f'Move {i + 1} allowed between {source} and {target}')
        elif remainder == 2:
             print(f'Move {i + 1} allowed between {source} and {auxiliary}')
-       else:
+       elif remainder == 0:
             print(f'Move {i + 1} allowed between {auxiliary} and {target}')
 
 #initiate call from source A to target C with auxiliary B
