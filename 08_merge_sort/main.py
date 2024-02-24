@@ -1,2 +1,2 @@
 def merge_sort(array):
-    pass
+    middle_point = array // 2
