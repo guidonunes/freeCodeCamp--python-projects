@@ -4,4 +4,5 @@ class Board:
         self.board = board
         
     def __str__(self):
-        pass
+    #create the top border of the board
+        upper_lines = f'\n╔═══{"╤═══"*2}{"╦═══"}{"╤═══"*2}{"╦═══"}{"╤═══"*2}╗\n'
