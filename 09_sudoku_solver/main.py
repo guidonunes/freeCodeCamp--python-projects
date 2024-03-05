@@ -11,4 +11,4 @@ class Board:
         board_string = upper_lines
     #use enumeration to get both index and line of each row
         for index, line in enumerate(self.board):
-            pass
+            row_list = []
