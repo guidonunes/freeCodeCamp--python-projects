@@ -12,5 +12,6 @@ class Board:
     #use enumeration to get both index and line of each row
         for index, line in enumerate(self.board):
             row_list = []
-            for square_no, part in enumerate():
+    #
+            for square_no, part in enumerate([line[:3], line[3:6], line[6:]], start=1):
                 pass
