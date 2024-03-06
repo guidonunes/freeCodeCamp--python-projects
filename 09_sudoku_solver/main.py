@@ -18,4 +18,4 @@ class Board:
                 row_list.extend(row_square)
     #check if the current segment(square_no) is not the last one
                 if square_no != 3:
-                    pass
+                    row_list.append('║')
