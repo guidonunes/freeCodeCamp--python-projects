@@ -30,5 +30,8 @@ class Board:
                     board_string += middle_lines
             else:
                 board_string += lower_lines
-            #return string containing the complete visual representation of the sudoku board
+    #return string containing the complete visual representation of the sudoku board
             return board_string
+    
+    def find_empty_cell(self):
+        pass
