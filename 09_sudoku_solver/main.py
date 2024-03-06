@@ -16,3 +16,6 @@ class Board:
             for square_no, part in enumerate([line[:3], line[3:6], line[6:]], start=1):
                 row_square = '|'.join(str(item) for item in part)
                 row_list.extend(row_square)
+    #check if the current segment(square_no) is not the last one
+                if square_no != 3:
+                    pass
