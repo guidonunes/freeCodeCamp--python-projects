@@ -19,3 +19,4 @@ class Board:
     #check if the current segment(square_no) is not the last one
                 if square_no != 3:
                     row_list.append('║')
+            row = f'║ {" ".join(row_list)} ║\n'
