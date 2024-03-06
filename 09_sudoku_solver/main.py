@@ -35,4 +35,10 @@ class Board:
     
     def find_empty_cell(self):
         for row, contents in enumerate(self.board):
-            pass
+            try:
+                col = contents.index(0)
+                return row, col
+            except ValueError:
+                pass
+                
+            
