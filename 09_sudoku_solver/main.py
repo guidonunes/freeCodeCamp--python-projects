@@ -24,4 +24,5 @@ class Board:
             board_string += row_empty
     #handle the last row. The last row of the sudoku board has an index of 8         
             if index < 8:
-                pass
+                if index % 3 == 2:
+                    pass
