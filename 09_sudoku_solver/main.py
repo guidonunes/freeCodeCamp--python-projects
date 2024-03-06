@@ -25,4 +25,4 @@ class Board:
     #handle the last row. The last row of the sudoku board has an index of 8         
             if index < 8:
                 if index % 3 == 2:
-                    pass
+                    board_string += f'╠═══{"╪═══"*2}{"╬═══"}{"╪═══"*2}{"╬═══"}{"╪═══"*2}╣\n'
