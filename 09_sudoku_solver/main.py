@@ -22,3 +22,6 @@ class Board:
             row = f'║ {" ".join(row_list)} ║\n'
             row_empty = row.replace('0', ' ')
             board_string += row_empty
+    #handle the last row. The last row of the sudoku board has an index of 8         
+            if index < 8:
+                pass
