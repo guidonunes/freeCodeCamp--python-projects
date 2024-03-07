@@ -45,5 +45,5 @@ class Board:
     
     #check if a given number can be inserted into a specified row
     def valid_in_row(self, row, num):
-        pass
+        return num not in self.board[row]
     
