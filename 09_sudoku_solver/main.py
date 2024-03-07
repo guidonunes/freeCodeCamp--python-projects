@@ -41,4 +41,9 @@ class Board:
             except ValueError:
                 pass
                 
-        return None    
+        return None   
+    
+    #check if a given number can be inserted into a specified row
+    def valid_in_row(self, row, num):
+        pass
+    
