@@ -53,5 +53,7 @@ class Board:
         self.board[row][col] != num
         for row in range(9)
         )
-        
+    #check if a given number can be inserted in the 3x3 square
+    def valid_in_square(self, row, col, num):
+        pass
         
