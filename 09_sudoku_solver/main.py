@@ -49,5 +49,6 @@ class Board:
     
     #check if a given number can be inserted into a specified column
     def valid_in_col(self, col, num):
+        self.board[row][col] != num
         for row in range(9):
             pass
