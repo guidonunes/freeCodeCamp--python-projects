@@ -49,7 +49,7 @@ class Board:
     
     #check if a given number can be inserted into a specified column
     def valid_in_col(self, col, num):
-        all(
+        return all(
         self.board[row][col] != num
         for row in range(9)
         )
