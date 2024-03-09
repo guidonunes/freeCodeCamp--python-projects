@@ -56,4 +56,5 @@ class Board:
     #check if a given number can be inserted in the 3x3 square
     def valid_in_square(self, row, col, num):
         row_start = (row//3) * 3
+        col_start = (col//3) * 3
         
