@@ -58,4 +58,5 @@ class Board:
         row_start = (row//3) * 3
         col_start = (col//3) * 3
         for row_no in range(row_start, row_start + 3):
-            pass
+            for col_no in range(col_start, col_start + 3):
+                pass
