@@ -57,4 +57,5 @@ class Board:
     def valid_in_square(self, row, col, num):
         row_start = (row//3) * 3
         col_start = (col//3) * 3
-        
+        for row_no in range(row_start, row_start + 3):
+            pass
