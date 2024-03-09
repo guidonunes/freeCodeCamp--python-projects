@@ -59,4 +59,6 @@ class Board:
         col_start = (col//3) * 3
         for row_no in range(row_start, row_start + 3):
             for col_no in range(col_start, col_start + 3):
-                pass
+    #check if the specified number is already present in the current cell
+                if self.board[row_no][col_no] == num:
+                    pass
