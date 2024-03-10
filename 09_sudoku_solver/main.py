@@ -61,4 +61,4 @@ class Board:
             for col_no in range(col_start, col_start + 3):
     #check if the specified number is already present in the current cell
                 if self.board[row_no][col_no] == num:
-                    pass
+                    return False
