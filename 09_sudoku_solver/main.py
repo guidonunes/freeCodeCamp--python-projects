@@ -89,4 +89,4 @@ class Board:
         return False
 
 def solve_sudoku(board):
-    pass
+    gameboard = Board(board)
