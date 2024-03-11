@@ -72,3 +72,6 @@ class Board:
         valid_in_square = self.valid_in_square(row, col, num)
     #Verifies if all function calls return True
         return all([valid_in_row, valid_in_col, valid_in_square])
+    
+    def solver(self):
+        pass
