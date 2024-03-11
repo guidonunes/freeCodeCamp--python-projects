@@ -70,4 +70,5 @@ class Board:
         valid_in_row = self.valid_in_row(row, num)
         valid_in_col = self.valid_in_col(col, num)
         valid_in_square = self.valid_in_square(row, col, num)
-        all([valid_in_row, valid_in_col, valid_in_square])
+    #Verifies if all function calls return True
+        return all([valid_in_row, valid_in_col, valid_in_square])
