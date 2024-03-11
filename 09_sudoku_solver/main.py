@@ -85,5 +85,8 @@ class Board:
                     if self.solver():
                         return True
                     self.board[row][col] = 0
-                else:
-                    return False
+                
+        return False
+
+def solve_sudoku(board):
+    pass
