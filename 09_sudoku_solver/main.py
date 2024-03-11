@@ -62,3 +62,4 @@ class Board:
     #check if the specified number is already present in the current cell
                 if self.board[row_no][col_no] == num:
                     return False
+        return True
