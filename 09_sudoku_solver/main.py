@@ -66,6 +66,7 @@ class Board:
     
     def is_valid(self, empty, num):
         row, col = empty
-    #check if the number is valid for insertion in the specified row/column  
+    #check if the number is valid for insertion in the specified row/column/square  
         valid_in_row = self.valid_in_row(row, num)
         valid_in_col = self.valid_in_col(col, num)
+        valid_in_square = self.valid_in_square(row, col, num)
