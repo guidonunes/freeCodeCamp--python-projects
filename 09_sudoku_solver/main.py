@@ -84,5 +84,6 @@ class Board:
                     self.board[row][col] = guess
                     if self.solver():
                         return True
-                    else:
-                        self.board[row][col] = 0
+                    self.board[row][col] = 0
+                else:
+                    return False
