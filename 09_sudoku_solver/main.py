@@ -78,4 +78,5 @@ class Board:
             return True
         else:
             for guess in range(1, 10):
-                pass
+        #checks if the number is a valid choice for the current empty cell
+                self.is_valid(next_empty, guess)
