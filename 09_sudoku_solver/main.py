@@ -80,5 +80,5 @@ class Board:
             for guess in range(1, 10):
         #checks if the number is a valid choice for the current empty cell
                 if self.is_valid(next_empty, guess):
-                    guess = next_empty
                     row, col = next_empty
+                    self.board[row][col] = guess
