@@ -63,3 +63,6 @@ class Board:
                 if self.board[row_no][col_no] == num:
                     return False
         return True
+    
+    def is_valid(self, empty, num):
+        pass
