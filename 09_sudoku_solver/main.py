@@ -74,4 +74,5 @@ class Board:
         return all([valid_in_row, valid_in_col, valid_in_square])
     
     def solver(self):
-        pass
+        if (next_empty := self.find_empty_cell()) is None:
+            pass
