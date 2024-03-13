@@ -1,3 +1,4 @@
 #representation of a node in a binary search tree
 class TreeNode:
-    pass
+   def __init__(): 
+       pass
