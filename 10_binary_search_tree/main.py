@@ -7,4 +7,5 @@ class TreeNode:
        
 #representation of a binary search tree
 class BinarySearchTree:
-    pass
+    def __init__(self):
+        pass
