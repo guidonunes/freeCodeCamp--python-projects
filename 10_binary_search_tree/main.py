@@ -4,3 +4,7 @@ class TreeNode:
        self.key = key
        self.left = None 
        self.right = None
+       
+#representation of a binary search tree
+class BinarySearchTree:
+    pass
