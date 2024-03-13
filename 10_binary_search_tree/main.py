@@ -10,4 +10,4 @@ class BinarySearchTree:
     def __init__(self):
         self.root = None
     def insert(self, key):
-        pass
+        self.root = self._insert(self.root, key)
