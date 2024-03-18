@@ -42,5 +42,6 @@ class BinarySearchTree:
             node.left = self._delete(node.left, key)
         elif key > node.key:
             node.right = self._delete(node.right, key)
+        #conditionals valid if there are 2 children
         else:
-            pass
+            if
