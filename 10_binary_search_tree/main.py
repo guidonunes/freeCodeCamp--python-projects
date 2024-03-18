@@ -33,4 +33,4 @@ class BinarySearchTree:
         return self._search(node.right, key)
 #deletion of nodes
     def delete(self, key):
-        pass
+        self.root = self._delete(self.root, key)
