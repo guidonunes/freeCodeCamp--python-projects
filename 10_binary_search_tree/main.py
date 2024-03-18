@@ -48,4 +48,4 @@ class BinarySearchTree:
                 return node.right
             elif node.right is None:
                 return node.left
-            
+            node.key = self._min_value(node.right)          
