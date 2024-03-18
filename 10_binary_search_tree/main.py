@@ -5,7 +5,7 @@ class TreeNode:
        self.left = None 
        self.right = None
        
-#representation of a binary search tree
+#representation of the binary search tree
 class BinarySearchTree:
     def __init__(self):
         self.root = None
@@ -26,4 +26,6 @@ class BinarySearchTree:
         return self._search(self.root, key)
      
     def _search(self, node, key):
-        pass
+        if node is None or node.key == key:
+            return self.node
+            
