@@ -54,4 +54,4 @@ class BinarySearchTree:
 #chooses the smallest element from the right subtree and places it in place of the deleted node
     def _min_value(self, node):
         while node.left is not None:
-            pass
+            node = node.left
