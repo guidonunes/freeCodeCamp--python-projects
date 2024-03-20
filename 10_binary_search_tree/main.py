@@ -56,3 +56,6 @@ class BinarySearchTree:
         while node.left is not None:
             node = node.left
         return node.key
+    
+    def inorder_traversal(self):
+        pass
