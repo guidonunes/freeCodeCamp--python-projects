@@ -51,5 +51,7 @@ class BinarySearchTree:
             node.key = self._min_value(node.right)
             node.right = self._delete(node.right, key)
         return node
+#chooses the smallest element from the right subtree and places it in place of the deleted node
     def _min_value(self, node):
-        pass
+        while node.left is not None:
+            pass
