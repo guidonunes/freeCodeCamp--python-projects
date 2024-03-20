@@ -51,3 +51,5 @@ class BinarySearchTree:
             node.key = self._min_value(node.right)
             node.right = self._delete(node.right, key)
         return node
+    def _min_value(self, node):
+        pass
