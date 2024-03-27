@@ -73,3 +73,4 @@ nodes = [50,30,20,40,70,60,80]
 for node in nodes:
     bst.insert(node)
 
+print("Inorder traversal:", bst.inorder_traversal())
