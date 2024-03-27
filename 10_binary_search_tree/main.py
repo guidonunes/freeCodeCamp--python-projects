@@ -1,9 +1,11 @@
 #representation of a node in a binary search tree
 class TreeNode:
-   def __init__(self, key): 
-       self.key = key
-       self.left = None 
-       self.right = None
+    def __init__(self, key):
+        self.key = key
+        self.left = None
+        self.right = None
+    def __str__(self):
+        return str(self.key)
        
 #representation of the binary search tree
 class BinarySearchTree:
