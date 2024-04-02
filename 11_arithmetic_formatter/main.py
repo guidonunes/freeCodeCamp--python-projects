@@ -8,7 +8,8 @@ class ArithmeticFormatter:
         self.line_format = ""
         self.result= ""
 
-    def arithmetic_arranger(problems, show_answers=False):
+    def arithmetic_arranger(self, problems, show_answers=False):
+        self.reset()
 
     #max number of problems
         if len(problems) > 5: 
