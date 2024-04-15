@@ -17,7 +17,9 @@ class ArithmeticFormatter:
         
         arranged_problems = []
 
-        
+        for problem in problems:
+            parts = problem.split()
+            operand1, operator, operand2 = parts
 
 
 
