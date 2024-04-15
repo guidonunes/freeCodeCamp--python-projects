@@ -21,6 +21,9 @@ class ArithmeticFormatter:
             parts = problem.split()
             operand1, operator, operand2 = parts
 
+            if operator not in ('+', '-'):
+                return "Error: Operator must ne '+' or '-'"
+
 
 
         return problems
