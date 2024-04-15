@@ -17,6 +17,8 @@ class ArithmeticFormatter:
         
         arranged_problems = []
 
+        
+
 
 
         return problems
