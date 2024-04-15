@@ -14,6 +14,8 @@ class ArithmeticFormatter:
     #max number of problems
         if len(problems) > 5: 
             return "Error: Too many problems."
+        
+        arranged_problems = []
 
 
 
