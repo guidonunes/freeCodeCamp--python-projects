@@ -22,7 +22,10 @@ class ArithmeticFormatter:
             operand1, operator, operand2 = parts
 
             if operator not in ('+', '-'):
-                return "Error: Operator must ne '+' or '-'"
+                return "Error: Operator must ne '+' or '-'."
+            
+            if not operand1.isdigit() or not operand2.isdigit():
+                return "Error: Numbers must only contain digits."
 
 
 
